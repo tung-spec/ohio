@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f8fc">
+    <title>Open Ohio Search</title>
+    <style>
+      * { box-sizing: border-box; }
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; background: #f7f8fc; color: #172033; font: 16px/1.6 system-ui, sans-serif; }
+      main { width: min(100%, 560px); padding: 36px; border: 1px solid #e6e8f0; border-radius: 20px; background: white; box-shadow: 0 12px 35px #27345b12; }
+      h1 { margin: 0 0 8px; letter-spacing: -.04em; }
+      p { color: #667085; }
+      a.button { display: inline-block; margin: 10px 0; padding: 12px 18px; border-radius: 12px; background: #6a5af9; color: white; font-weight: 700; text-decoration: none; }
+      code { padding: 2px 6px; border-radius: 5px; background: #f0f1f8; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Ohio Search</h1>
+      <p>Use this file as a shortcut to open the search website on this computer.</p>
+      <a class="button" href="http://localhost:3000">Open Ohio Search</a>
+      <p>If the button says the site cannot be reached, start the app first from this project folder:</p>
+      <p><code>npm install</code><br><code>npm start</code></p>
+      <p>Searching needs a private <code>BRAVE_API_KEY</code> configured in the app environment. This shortcut does not contain or expose that key.</p>
+    </main>
+  </body>
+</html>
